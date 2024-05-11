@@ -1,7 +1,13 @@
+import { Footer } from "./components/Footer";
+import { Header } from "./components/Header";
+import { Body } from "./components/Main";
+
 function App() {
   return (
     <>
-      <p>Hello</p>
+      <Header />
+      <Body />
+      <Footer />
     </>
   );
 }
